@@ -2,92 +2,436 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>MoonVest Network - Deflationary Token on BSC</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Maundy - v4.1.0
-  * Template URL: https://bootstrapmade.com/maundy-free-coming-soon-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crypto </title>
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="./plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./plugins/nice-select/nice-select.min.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- Custom stylesheet -->
 </head>
 
-<body>
-
-	<video autoplay muted loop id="bgVideo">
-		<source src="assets/video/background.mp4" type="video/mp4">
-	</video>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center text-center">
-	  <img src="assets/img/logo.png" alt="MoonVest Network Logo" width="215" height="170">
-      <h1 class="mt-4 mb-1">MoonVest Network</h1>
-      <h3 class="mt-1 mb-3">A Deflationary Token with Passive Rewards</h3>
-	  <h2 class="mt-3 mb-1">Coming to Binance Smart Chain</h2>
-      <div class="countdown d-flex justify-content-center mt-1 mb-5" data-count="2021/4/21">
-        <div>
-          <h3>%d</h3>
-          <h4>Days</h4>
-        </div>
-        <div>
-          <h3>%h</h3>
-          <h4>Hours</h4>
-        </div>
-        <div>
-          <h3>%m</h3>
-          <h4>Minutes</h4>
-        </div>
-        <div>
-          <h3>%s</h3>
-          <h4>Seconds</h4>
-        </div>
-      </div>
-
-      <div class="social-links text-center">
-		<a href="https://t.me/moonvestnetwork" target="_blank" class="telegram"><i class="fa fa-telegram" aria-hidden="true"></i></a>
-		<a href="https://www.reddit.com/r/Moonvest/" target="_blank" class="reddit"><i class="fa fa-reddit" aria-hidden="true"></i></a>
-		<a href="https://www.instagram.com/moonvestnetwork/" target="_blank" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.facebook.com/moonvestnetwork" target="_blank" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="https://github.com/MoonVest-Network" target="_blank" class="github"><i class="fa fa-github" aria-hidden="true"></i></a>
-      </div>
-
-    </div>
-  </header><!-- End #header -->
-
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>MoonVest Network</span></strong>
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'DM Sans', sans-serif;">
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <div id="loading">
+      <div class="preloader">
+        <img src="./images/preloader.gif" alt="preloader">
       </div>
     </div>
-  </footer><!-- End #footer -->
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    <!--Site Header Area -->
+    <header class="site-header site-header--menu-center landing-5-menu dark-mode-texts site-header--absolute site-header--sticky">
+      <div class="container-fluid">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <!-- <div class="brand-logo">
+            <a href="https://moonvest.network">Moonvest Network</a>
+          </div> -->
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <li class="nav-item">
+                  <a href="blog.html" class="nav-link-item">Roadmap</a>
+                </li>
+                <li class="nav-item">
+                  <a href="blog.html" class="nav-link-item">MVN Token</a>
+                </li>
+                <li class="nav-item">
+                  <a href="blog.html" class="nav-link-item">Social</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://moonvest.network/moonvest_network_whitepaper.pdf" class="nav-link-item">White Paper</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://moonvest.market" class="nav-link-item">NFTs</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Hero Area -->
+    <div class="hero-area-l5 text-center bg-haiti  position-relative">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-10" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="hero-area-content-l5">
+              <div class="hero-area-content-l5__content">
+                <!-- <h2>Moonvest Network</h2> -->
+                <img src="images/logo.png" class="w-100" alt="moonvest logo">
+                <h3>A Deflationary Token with Passive Rewards. </h3>
+              </div>
+              <div class="hero-area-content-l5__btn">
+                <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x0323e7752c2d404718e2beaa57d7b6ee4021ae36"></a>
+                  <button class="btn btn--get-start focus-reset">                  
+                      Buy MVN
+                  </button>
+                </a>            
+                <a href="https://t.me/moonvestnetwork">
+                  <button class="btn focus-reset btn--all-feature">
+                  Join Telegram
+                  </button>
+                </a>              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+            <div class="hero-area-l5-image">
+              <img class="w-100" src="images/banner-bg.png" alt="iamge">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features Area -->
+    <div class="feature-area-l5-1 bg-bunting-aprx">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-8 col-md-10">
+            <div class="section__heading text-center">
+              <h2>How it works</h2>
+              <!-- <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+                corporate strategy </p> -->
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-lg-between justify-content-center feature-l5-1-items">
+          <div class="col-lg-3 col-md-6 col-sm-9" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="feature-l5-1-items__card text-center">
+              <div class="number">
+                <span>1</span>
+              </div>
+              <div class="content">
+                <h4>Deflationary</h4>
+                <p>1 Trillion MVN tokens were minted at launch, but 600 Billion have already been burned and no more can ever be minted. A portion of the sell fee is burned, and we will also be holding periodic burn events to further reduce the total supply. This causes the total supply of tokens to decline over time, increasing their scarcity.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-9" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="feature-l5-1-items__card text-center">
+              <div class="number">
+                <span>2</span>
+              </div>
+              <div class="content">
+                <h4>Passive Rewards</h4>
+                <p>A 10% fee* is charged on every sale, part of which is automatically redistributed to existing token holders, and the rest redistributed to the community through airdrops/giveaways and other upcoming community features. Simply hold MVN tokens and collect a portion of this fee passively as a reward for Hodling.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-9" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="feature-l5-1-items__card text-center">
+              <div class="number">
+                <span>3</span>
+              </div>
+              <div class="content">
+                <h4>Anti-Dump Tax</h4>
+                <p>To discourage large dumps an additional progressive tax is imposed on every sale proportional to the amount sold. This fee will be negligible to most sellers, but will be up to 10% for large sales (approaching 1% of total supply). This fee is burned, which futher decreases the total supply.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Area-1 -->
+    <div class="content-area-l5-1 bg-haiti">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-xl-5 col-lg-6 col-md-9 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content">
+              <div class="section__heading">
+                <h2>MVN Token</h2>
+                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approach
+                  to corporate strategy foster collaborative.</p>
+              </div>
+              <div class="content__btn">
+                <a href="#" class="btn  btn--link focus-reset">Learn
+                  more</a>
+              </div>
+            </div>
+          </div>
+          <div class="offset-xl-1 col-xl-6 col-lg-6 col-md-9 col-sm-12 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content-image-l5-1">
+              <img class="w-100" src="image/landing-5/content-img-1.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content Area-2 -->
+    <div class="content-area-l5-2 bg-bunting-aprx">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-9" data-aos="fade-in" data-aos-duration="800" data-aos-once="true">
+            <div class="section__heading text-center">
+              <h2>Offer highest transactions rate</h2>
+              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+                corporate.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+            <div class="dashboard-image">
+              <img class="w-100" src="image/landing-5/Dasboard.png" alt="image">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center dashboard-feature-items">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="dashboard-feature-items__card">
+              <div class="d-flex align-items-center">
+                <i class="fas fa-chart-line"></i>
+                <h4>Scale Business</h4>
+              </div>
+              <div class="content">
+                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+            <div class="dashboard-feature-items__card">
+              <div class="d-flex align-items-center">
+                <i class="text-secondary fas fa-lock"></i>
+                <h4>Locked Liquidity</h4>
+              </div>
+              <div class="content">
+                <p>Liquidity has been locked on Unicrypt for one year. This ensures that there will always be a market available to buy and sell MVN tokens, and the founding team can not rug pull.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="dashboard-feature-items__card">
+              <div class="d-flex align-items-center">
+                <i class="text-portica fas fa-map-marker-alt"></i>
+                <h4>Partnerships</h4>
+              </div>
+              <div class="content">
+                <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the
+                  digital divide.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature Area-2  -->
+    <div class="content-area-l5-3 bg-haiti">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-xl-5 col-lg-6 col-md-9 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content-box">
+              <div class="section__heading">
+                <h2>MVN Token</h2>
+              </div>
+              <div class="content-l5-3-feature">
+                <div class="d-flex align-items-center">
+                  <div class="icon-box">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Token Burn</h4>
+                    <p>1 Trillion tokens were minted initially. Over 610 Billion tokens have been burned to date.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="content-l5-3-feature">
+                <div class="d-flex align-items-center">
+                  <div class="icon-box">
+                    <i class="text-secondary fas fa-lock"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Locked Liquidity</h4>
+                    <p>Liquidity has been locked on Unicrypt for one year. This ensures that there will always be a market available to buy and sell MVN tokens, and the founding team can not rug pull.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-area-content-l5__btn">
+                <button class="btn btn--get-start focus-reset">Get Started</button>
+                <button class="btn focus-reset btn--all-feature">All Features</button>
+              </div>
+            </div>
+          </div>
+          <div class="offset-xl-2 col-xl-5 col-lg-6 col-md-9 col-sm-12 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content-image-l5-3">
+              <img class="w-100" src="image/landing-5/content-img-2.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Brand Area -->
+    <div class="brand-area-l5 bg-haiti">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section__heading text-center">
+              <h2>Our trusted partners</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 " data-aos="fade-in" data-aos-duration="800" data-aos-once="true">
+            <div class="brand-items-l5 d-flex justify-content-center align-items-center flex-wrap">
+              <div class="single-item">
+                <img src="image/landing-5/logo-1.png" alt="logo">
+              </div>
+              <div class="single-item">
+                <img src="image/landing-5/logo-2.png" alt="logo">
+              </div>
+              <div class="single-item">
+                <img src="image/landing-5/logo-3.png" alt="logo">
+              </div>
+              <div class="single-item">
+                <img src="image/landing-5/logo-4.png" alt="logo">
+              </div>
+              <div class="single-item">
+                <img src="image/landing-5/logo-5.png" alt="logo">
+              </div>
+              <div class="single-item">
+                <img src="image/landing-5/logo-1.png" alt="logo">
+              </div>
+              <div class="single-item">
+                <img src="image/landing-5/logo-2.png" alt="logo">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Integration Area -->
+    <!-- Pricing Area -->
+    <!-- Footer Area -->
+    <footer class="footer-area-l5">
+      <div class="container">
+        <div class="row justify-content-md-between justify-content-center">
+          <div class="col-xl-5 col-lg-6 col-md-8 col-12">
+            <div class="join-us-content text-center text-md-start">
+              <h2>200K+ People joined us.
+                When are you joining?</h2>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-4 col-8">
+            <div class="join-us-btn text-md-end text-center">
+              <button class="btn focus-reset">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="border border-footer"></div>
+          </div>
+        </div>
+        <div class="row footer-quick-link-area justify-content-lg-center">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>THEME PAGES</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Home Pages</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">About Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>COMPANY BIO</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Sales Tools Catalog</a></li>
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>PARTNERSHIP</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Peseller Program</a></li>
+                <li><a href="#">AI Labs</a></li>
+                <li><a href="#">Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>Pages</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="footer-area-list-item">
+              <h4>Career</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Opening Post</a></li>
+                <li><a href="#">Apply Aplication</a></li>
+                <li><a href="#">Partner</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="./plugins/nice-select/jquery.nice-select.min.js"></script>
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="https://porjoton.netlify.app/mekanic/js/waypoints.min.js"></script>
+  <script src="./plugins/counter-up/jquery.counterup.min.js"></script>
+  <script src="./plugins/isotope/isotope.pkgd.min.js"></script>
+  <script src="./plugins/isotope/packery.pkgd.min.js"></script>
+  <script src="./plugins/isotope/image.loaded.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
 </body>
 
 </html>
